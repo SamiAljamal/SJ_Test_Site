@@ -1,0 +1,12 @@
+hr{
+    border-style: inset;
+    border-width: 2px;
+}
+
+div.border{
+  border-style: solid;
+}
+
+.title{
+  border-bottom-style: solid;
+}
