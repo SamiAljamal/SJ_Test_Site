@@ -155,6 +155,7 @@ stockJump.prototype.getNews = function(){
 
 $(document).ready(function(){
   google.charts.load('current', {'packages':['table']});
+  google.charts.setOnLoadCallback(drawTable);
   stockTable();
   $("#results").submit(function(event){
     event.preventDefault();
