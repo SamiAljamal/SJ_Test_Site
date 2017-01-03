@@ -1,0 +1,39 @@
+nav.navbar.navbar-inverse{
+  margin-bottom: 0px;
+  margin-bottom: -1;
+}
+.splash {
+  height:300px;
+    background-image: url(http://members.stockjumpers.com/wp-content/uploads/2016/04/molebanner2-1024x142.png);
+    color: #fff;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+.hrquote{
+    border-width: 1px;
+    border-style: inset;
+}
+.message{
+  display: none;
+  text-align: center;
+}
+#list{
+  height: 450px;
+  overflow-y: scroll;
+  display:none;
+}
+.font{
+  font-family: 'Open Sans', sans-serif;
+}
+
+.orange-background {
+   background-color: orange;
+  }
+
+ .orchid-background {
+  background-color: orchid;
+ }
+
+.beige-background {
+ background-color: beige;
+  }

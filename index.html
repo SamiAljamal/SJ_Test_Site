@@ -4,32 +4,61 @@
     <meta charset="utf-8">
     <title>Test site</title>
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-    <link rel="stylesheet" href="css/script.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
     <script
   src="https://code.jquery.com/jquery-3.1.1.js"
   integrity="sha256-16cdPddA6VdVInumRGo6IbivbERE8p7CQR3HzTBuELA="
   crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/core.js"></script>
+   <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
     <script type="text/javascript" src="js/script.js"></script>
   </head>
-  <nav class="navbar navbar-inverse">
-    <div class="container-fluid">
-      <div class="navbar-header">
-        <img alt="Brand" src="http://stockjumpers.com/images/new-sj-log(gold-trans).png?crc=298083137">
-      </div>
-    </div>
-
-  </nav>
   <body>
-    <form id="results">
-      <input type="text" name="stock" id="stock">
+    <nav class="navbar navbar-inverse">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <img alt="Brand" src="http://stockjumpers.com/images/new-sj-log(gold-trans).png?crc=298083137">
+        </div>
+      </div>
+    </nav>
+    <div class="splash">
 
-      <button class="btn btn-lg">Sel</button>
-
-    </form>
-    <div id="show"></div>
-
-
-
+    </div>
+   <div class="container">
+     <h1 style="text-align:center;">Stock Info</h1>
+     <p class="font">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+     <br>
+     <form id="results">
+       <div>
+         <input class="center-block" style="height:44px; width:200px; text-align: center;"type="text" name="stock" placeholder="stock symbol" id="stock" required="please input stock symbol">
+       </div>
+       <br>
+        <button class="btn btn-warning center-block" style="width: 120px;" type="submit">Search</button>
+     </form>
+     <br>
+     <br>
+     <div class="row">
+       <div class="col-md-6">
+         <h3 class="message">Stock Quote</h3>
+         <div id="stockquote"></div>
+       </div>
+       <div class="col-md-6">
+         <h3 class="message">News</h3>
+         <div id="list">
+           <div id="news">
+          </div>
+         </div>
+      </div>
+     </div>
+   </div>
+    <hr>
+     <div class="container">
+       <h1 style="text-align:center;">Jump Data</h1>
+       <p class="font">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+       <br>
+       <div id="table" style="height:450px">
+       </div>
+     </div>
   </body>
 </html>
